@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Eudoxus Sans", sans-serif;
+  font-family: 'Eudoxus Sans', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -104,4 +104,59 @@
 
   background: #65c4fa;
   filter: blur(150px);
+}
+
+/* STYLES */
+
+.innerWidth {
+  @apply 2xl:max-w-maxWidth w-full;
+}
+
+.interWidth {
+  @apply lg:w-[80%] w-full;
+}
+
+.paddings {
+  @apply sm:p-8 md:p-16 px-6 py-12;
+}
+
+.yPaddings {
+  @apply sm:py-16 md:py-8 py-12;
+}
+
+.xPaddings {
+  @apply sm:px-16 px-6;
+}
+
+.topPaddings {
+  @apply sm:pt-16 md:pt-8 pt-12;
+}
+
+.bottomPaddings {
+  @apply sm:pb-16 md:pb-8 pb-12;
+}
+
+.flexCenter {
+  @apply flex justify-center items-center;
+}
+
+.flexStart {
+  @apply flex justify-start items-start;
+}
+
+.flexEnd {
+  @apply flex justify-end;
+}
+
+.navPadding {
+  @apply pt-[98px];
+}
+
+/* hero section */
+.heroHeading {
+  @apply font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white;
+}
+
+.heroDText {
+  @apply md:w-[212px] sm:w-[80px] w-[60px] md:h-[108px] sm:h-[48px] h-[38px] md:border-[18px] border-[9px] rounded-r-[50px] border-white sm:mx-2 mx-[6px];
 }

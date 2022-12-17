@@ -11,7 +11,7 @@ import {
 } from '../containers';
 
 const Page = () => (
-  <div>
+  <div className="bg-primary-black overflow-hidden">
     <Navbar />
     <Hero />
     <About />
